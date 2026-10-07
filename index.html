@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
 <title>Home Learning Phonics</title>
 
 <style>
+
 * {
     box-sizing: border-box;
 }
@@ -67,12 +69,12 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .tab {
     border: none;
-    padding: 17px 10px;
+    padding: 18px 10px;
     border-radius: 15px;
     color: white;
     font-size: 20px;
@@ -84,11 +86,15 @@ h1 {
 .set2-tab { background: #059669; }
 .set3-tab { background: #7c3aed; }
 
+.tab:hover {
+    filter: brightness(0.9);
+}
+
 .section {
     display: none;
 }
 
-.section.active {
+#set1 {
     display: block;
 }
 
@@ -137,7 +143,7 @@ h1 {
     align-items: center;
     color: white;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 23px;
 }
 
 .set1 .sound { background: #0284c7; }
@@ -175,6 +181,7 @@ footer {
 }
 
 @media(max-width: 550px) {
+
     .container {
         padding: 12px;
     }
@@ -196,6 +203,7 @@ footer {
         padding: 14px 6px;
     }
 }
+
 </style>
 </head>
 
@@ -204,7 +212,11 @@ footer {
 <div class="container">
 
 <div class="header">
-    <div class="header-label">HOME LEARNING</div>
+
+    <div class="header-label">
+        HOME LEARNING
+    </div>
+
     <h1>📚 Phonics Video Library</h1>
 
     <div class="subtitle">
@@ -214,17 +226,316 @@ footer {
 
     <div class="apple-tv">
         <strong>📺 Apple TV:</strong>
-        Open a video on your iPhone or iPad.
-        Then open Control Centre → Screen Mirroring → select your Apple TV.
+        Open a video on your iPhone or iPad,
+        then open Control Centre → Screen Mirroring → select your Apple TV.
     </div>
+
 </div>
 
 <div class="tabs">
-    <button class="tab set1-tab" onclick="showSet('set1')">Set 1</button>
-    <button class="tab set2-tab" onclick="showSet('set2')">Set 2</button>
-    <button class="tab set3-tab" onclick="showSet('set3')">Set 3</button>
+
+<button
+    class="tab set1-tab"
+    type="button"
+    onclick="showSet('set1')">
+    Set 1
+</button>
+
+<button
+    class="tab set2-tab"
+    type="button"
+    onclick="showSet('set2')">
+    Set 2
+</button>
+
+<button
+    class="tab set3-tab"
+    type="button"
+    onclick="showSet('set3')">
+    Set 3
+</button>
+
 </div>
 
-<div id="set1" class="section active set1">
 
-<h2 
+<!-- SET 1 -->
+
+<div id="set1" class="section set1">
+
+<h2 class="section-title">Set 1</h2>
+<div class="section-description">First sounds</div>
+
+<div class="grid">
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/TTl6ztQC/UVadrNZw">
+<div class="sound">m</div>
+<div><div class="card-title">Sound: m</div><div class="rhyme">Down Maisie then over the two mountains.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/ltvcw2QS/iEi24oJe">
+<div class="sound">a</div>
+<div><div class="card-title">Sound: a</div><div class="rhyme">Round the apple, down the leaf.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/SJfTSCOQ/CKXnl7dU">
+<div class="sound">s</div>
+<div><div class="card-title">Sound: s</div><div class="rhyme">Slide around the snake.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/pVlXR21S/7dioamCj">
+<div class="sound">d</div>
+<div><div class="card-title">Sound: d</div><div class="rhyme">Round the dinosaur's back, up his neck and down to his feet.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/GjwG1IlQ/T9DZKBQb">
+<div class="sound">t</div>
+<div><div class="card-title">Sound: t</div><div class="rhyme">Down the tower, across the tower.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/uExWP2NS/dQYskvPl">
+<div class="sound">i</div>
+<div><div class="card-title">Sound: i</div><div class="rhyme">Down the insect's body, dot for the head.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/b9glFwhk/QikJAlNm">
+<div class="sound">n</div>
+<div><div class="card-title">Sound: n</div><div class="rhyme">Down Nobby and over the net.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/7NhlGMtC/fBdBSsns">
+<div class="sound">p</div>
+<div><div class="card-title">Sound: p</div><div class="rhyme">Down the plait, up and over the pirate's face.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/usHYw7xA/P8nG8YlV">
+<div class="sound">g</div>
+<div><div class="card-title">Sound: g</div><div class="rhyme">Round the girl's face, down her hair and give her a curl.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/deLT2flm/6pA6IIh3">
+<div class="sound">o</div>
+<div><div class="card-title">Sound: o</div><div class="rhyme">All around the orange.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/jT7Hqqbx/pyGfU5ki">
+<div class="sound">c</div>
+<div><div class="card-title">Sound: c</div><div class="rhyme">Curl around the caterpillar.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/HINSUFsH/ylJT8sRG">
+<div class="sound">k</div>
+<div><div class="card-title">Sound: k</div><div class="rhyme">Down the kangaroo's body, tail and leg.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/wPdzfalf/wOgxM13q">
+<div class="sound">u</div>
+<div><div class="card-title">Sound: u</div><div class="rhyme">Down and under the umbrella.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/2Q6ifjN4/JunANQcn">
+<div class="sound">b</div>
+<div><div class="card-title">Sound: b</div><div class="rhyme">Down the laces, over the toe and touch the heel.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/ek3NfaLX/fykKp3Ll">
+<div class="sound">f</div>
+<div><div class="card-title">Sound: f</div><div class="rhyme">Down the stem and draw the leaves.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/3Nr7qAu7/bgBxbJGq">
+<div class="sound">e</div>
+<div><div class="card-title">Sound: e</div><div class="rhyme">Slice into the egg.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/r6pCdq62/diOAZoNr">
+<div class="sound">l</div>
+<div><div class="card-title">Sound: l</div><div class="rhyme">Down the long leg.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/7SuFa9YI/r70jltBL">
+<div class="sound">h</div>
+<div><div class="card-title">Sound: h</div><div class="rhyme">Down the horse's head to the hooves and over his back.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/PiMRhOiu/av1CiwVS">
+<div class="sound">sh</div>
+<div><div class="card-title">Sound: sh</div><div class="rhyme">Slither down the snake.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/I6NJezud/XrkdYSxJ">
+<div class="sound">r</div>
+<div><div class="card-title">Sound: r</div><div class="rhyme">Down the robot's back, then up and curl.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/8XZpd09k/lfTuz5eQ">
+<div class="sound">j</div>
+<div><div class="card-title">Sound: j</div><div class="rhyme">Down his body, curl and dot.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/EKmLM4Gv/LOc8F8Js">
+<div class="sound">v</div>
+<div><div class="card-title">Sound: v</div><div class="rhyme">Down a wing, up a wing.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/bt4k0vlk/0jNeEu1j">
+<div class="sound">y</div>
+<div><div class="card-title">Sound: y</div><div class="rhyme">Down a horn, up a horn.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/zZMKzhAJ/6UkeSEv4">
+<div class="sound">w</div>
+<div><div class="card-title">Sound: w</div><div class="rhyme">Down, up, down, up the worm.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/lapT5dbV/aI9y8qxE">
+<div class="sound">th</div>
+<div><div class="card-title">Sound: th</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/pfQewYfK/QBvhsvl8">
+<div class="sound">z</div>
+<div><div class="card-title">Sound: z</div><div class="rhyme">Zig-zag-zig, down the zip.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/fAtrTqWA/lCUjcsS8">
+<div class="sound">ch</div>
+<div><div class="card-title">Sound: ch</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/9wCOuvUd/PXpnPSAM">
+<div class="sound">qu</div>
+<div><div class="card-title">Sound: qu</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/7Mdz6b7x/vXgR7hBE">
+<div class="sound">x</div>
+<div><div class="card-title">Sound: x</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/RXUEgCEJ/r0BuxNCn">
+<div class="sound">ng</div>
+<div><div class="card-title">Sound: ng</div><div class="rhyme">A thing on a string.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/b73V2IyO/CL6p9m8P">
+<div class="sound">nk</div>
+<div><div class="card-title">Sound: nk</div><div class="rhyme">I think I stink.</div><div class="watch">Watch video →</div></div>
+</a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/Sll3lXFY/10LYKfCS">
+<div class="sound">ck</div>
+<div><div class="card-title">Sound: ck</div><div class="rhyme">Tick tock clock.</div><div class="watch">Watch video →</div></div>
+</a>
+
+</div>
+</div>
+
+
+<!-- SET 2 -->
+
+<div id="set2" class="section set2">
+
+<h2 class="section-title">Set 2</h2>
+<div class="section-description">Speed Sounds</div>
+
+<div class="grid">
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/d4A1PnCy/Elz9QPIt"><div class="sound">ay</div><div><div class="card-title">ay</div><div class="rhyme">may I play</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/2qFndOZR/BgQAwbGp"><div class="sound">ee</div><div><div class="card-title">ee</div><div class="rhyme">what can you see</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/l4EOYV4H/VVhIayLF"><div class="sound">igh</div><div><div class="card-title">igh</div><div class="rhyme">fly high</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/EW2yzVHL/7JDQNttQ"><div class="sound">ow</div><div><div class="card-title">ow</div><div class="rhyme">blow the snow</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/2EkwuNNV/27yQfVHb"><div class="sound">oo</div><div><div class="card-title">oo</div><div class="rhyme">poo at the zoo</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/1LDwqklz/AqleI69f"><div class="sound">oo</div><div><div class="card-title">oo</div><div class="rhyme">look at a book</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/KxOKaGph/nn9e2R5R"><div class="sound">ar</div><div><div class="card-title">ar</div><div class="rhyme">start the car</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/RfnfufL3/Ic2470Px"><div class="sound">or</div><div><div class="card-title">or</div><div class="rhyme">shut the door</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/qzVxMvyZ/1eypVjPf"><div class="sound">air</div><div><div class="card-title">air</div><div class="rhyme">that's not fair</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/09RGmEhE/UhZDfHAK"><div class="sound">ir</div><div><div class="card-title">ir</div><div class="rhyme">whirl and twirl</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/HUAgBQOF/dHgmVLxs"><div class="sound">ou</div><div><div class="card-title">ou</div><div class="rhyme">shout it out</div><div class="watch">Watch video →</div></div></a>
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/OAijuWjs/owHqtmQy"><div class="sound">oy</div><div><div class="card-title">oy</div><div class="rhyme">toy for a boy</div><div class="watch">Watch video →</div></div></a>
+
+</div>
+</div>
+
+
+<!-- SET 3 -->
+
+<div id="set3" class="section set3">
+
+<h2 class="section-title">Set 3</h2>
+<div class="section-description">Advanced sounds</div>
+
+<div class="grid">
+
+<a class="card" href="https://schools.ruthmiskin.com/training/view/cqQqr5gK/NIrBcLQd"><div class="sound">ea</div><div><div class="card-title">ea</div><div class="rhyme">cup of tea</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/sCksJIbV/fMZbaSjv"><div class="sound">oi</div><div><div class="card-title">oi</div><div class="rhyme">spoil the boy</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/K7Zfewe4/bXzBp2ui"><div class="sound">a-e</div><div><div class="card-title">a-e</div><div class="rhyme">make a cake</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/RVZ2vgZU/bDa3jVBm"><div class="sound">i-e</div><div><div class="card-title">i-e</div><div class="rhyme">nice smile</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/adH6q83q/ZlMegNNc"><div class="sound">o-e</div><div><div class="card-title">o-e</div><div class="rhyme">phone home</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/6k3KuPnN/givmfWpB"><div class="sound">u-e</div><div><div class="card-title">u-e</div><div class="rhyme">huge brute</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/RdH0tFkl/NQH5pNgC"><div class="sound">aw</div><div><div class="card-title">aw</div><div class="rhyme">yawn at dawn</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/85b5LPcw/gVSkLnkU"><div class="sound">are</div><div><div class="card-title">are</div><div class="rhyme">share and care</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/vZQRLb6I/ibfCXi0e"><div class="sound">ur</div><div><div class="card-title">ur</div><div class="rhyme">nurse for a purse</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/oBftgPxb/2U9HKQBg"><div class="sound">er</div><div><div class="card-title">er</div><div class="rhyme">a better letter</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/15QHEaXJ/HZYrXBcf"><div class="sound">ow</div><div><div class="card-title">ow</div><div class="rhyme">brown cow</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/eLDiX5Ye/9wUCk8HM"><div class="sound">ai</div><div><div class="card-title">ai</div><div class="rhyme">snail in the rain</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/pUW7tOxg/OxoGfSha"><div class="sound">oa</div><div><div class="card-title">oa</div><div class="rhyme">goat in a boat</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/3HfZ7cyE/Xu8xb8oh"><div class="sound">ew</div><div><div class="card-title">ew</div><div class="rhyme">chew the stew</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/XEGqUBp6/XZDTZj2z"><div class="sound">ire</div><div><div class="card-title">ire</div><div class="rhyme">fire fire!</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/Hr33zTod/iksoglwt"><div class="sound">ear</div><div><div class="card-title">ear</div><div class="rhyme">hear with your ear</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/LRE47EIa/C1WDhYY5"><div class="sound">ure</div><div><div class="card-title">ure</div><div class="rhyme">sure it's pure?</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/7H1eqKL4/Fh5GNP5Q"><div class="sound">ue</div><div><div class="card-title">ue</div><div class="rhyme">come to the rescue</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/N94v9Xt4/FK3qHdrW"><div class="sound">ie</div><div><div class="card-title">ie</div><div class="rhyme">terrible tie</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/UwZcQpfm/IWdkVBjI"><div class="sound">au</div><div><div class="card-title">au</div><div class="rhyme">Paul the astronaut</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/FLLNPtKu/v2Q5nVZn"><div class="sound">e-e</div><div><div class="card-title">e-e</div><div class="rhyme">go Pete and Steve</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/6FMgamhs/Wm42qQER"><div class="sound">e</div><div><div class="card-title">e</div><div class="rhyme">Additional sound</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/k89K8umn/npXCKxrR"><div class="sound">wh</div><div><div class="card-title">wh</div><div class="rhyme">Additional sound</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/vyEtw9EY/gw7p5uxB"><div class="sound">ph</div><div><div class="card-title">ph</div><div class="rhyme">Additional sound</div><div class="watch">Watch video →</div></div></a>
+<a class="card" href="https://schools.ruthmiskin.com/training/view/Hruxf24n/awASNmQA"><div class="sound">kn</div><div><div class="card-title">kn</div><div class="rhyme">Additional sound</div><div class="watch">Watch video →</div></div></a>
+
+</div>
+</div>
+
+<footer>
+📚 Home Learning Phonics
+</footer>
+
+</div>
+
+<script>
+
+function showSet(setName) {
+
+    var set1 = document.getElementById("set1");
+    var set2 = document.getElementById("set2");
+    var set3 = document.getElementById("set3");
+
+    set1.style.display = "none";
+    set2.style.display = "none";
+    set3.style.display = "none";
+
+    var selectedSet = document.getElementById(setName);
+
+    if (selectedSet) {
+        selectedSet.style.display = "block";
+    }
+}
+
+window.onload = function() {
+    showSet("set1");
+};
+
+</script>
+
+</body>
+</html>
